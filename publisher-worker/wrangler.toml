@@ -1,0 +1,19 @@
+name = "vy-portfolio-publisher"
+main = "src/index.js"
+compatibility_date = "2026-11-14"
+
+[vars]
+GITHUB_BRANCH = "main"
+# Set to the exact public GitHub Pages origin, for example https://example.github.io
+PUBLISH_ORIGIN = "https://REPLACE-WITH-YOUR-PAGES-ORIGIN"
+# Fill in the repository owner/name before deploying.
+GITHUB_OWNER = "REPLACE-WITH-GITHUB-OWNER"
+GITHUB_REPO = "vy-portfolio"
+
+[[ratelimits]]
+name = "PUBLISH_RATE_LIMITER"
+namespace_id = "87654321"
+
+  [ratelimits.simple]
+  limit = 5
+  period = 60

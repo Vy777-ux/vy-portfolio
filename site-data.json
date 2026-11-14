@@ -1,0 +1,58 @@
+{
+  "content": {
+    "heroTitle": "The forgotten|world.",
+    "heroIntro": "A quiet place where ancient machines sleep beneath the wild. I create motion, characters and small worlds for people who still look closely.",
+    "aboutTitle": "I make things|that feel alive.",
+    "aboutText": "Hey, I’m Nyx.aex. I’m an independent artist drawn to forgotten places, gentle oddities and the way nature takes its time. Through animation and design, I build little windows into worlds that might have existed — or might still.",
+    "aboutAside": "This portfolio is a living notebook. More stories are on their way.",
+    "commissionText": "I’m available for select animation, illustration and motion design projects. If your idea feels like a good fit, tell me a little about it.",
+    "contactText": "For project inquiries, collaborations or just to share something lovely you found.",
+    "email": "hello@example.com",
+    "socials": [
+      {
+        "label": "Youtube",
+        "url": "https://www.youtube.com/@Vy_Xz"
+      }
+    ]
+  },
+  "style": {
+    "bg": "#343b2d",
+    "accent": "#4b7548",
+    "text": "#f1e9d5",
+    "sky": "#d9c995",
+    "blur": 24,
+    "glass": 0.35,
+    "width": 1340,
+    "spacing": 60,
+    "anim": "blur",
+    "duration": 700,
+    "ease": "gentle",
+    "hover": "glow",
+    "parallax": true,
+    "font": "serif"
+  },
+  "projects": [
+    {
+      "title": "Remake | Santuário Malevolente - M4rkim",
+      "category": "Remake",
+      "description": "",
+      "mark": "✳",
+      "image": "",
+      "link": "https://youtu.be/NQ4j4Q-06ZE"
+    },
+    {
+      "title": "Remake | Santuário - M4rkim",
+      "category": "Remake",
+      "description": "",
+      "mark": "◌",
+      "image": "",
+      "link": "https://youtu.be/EYIwKtIPEiQ"
+    }
+  ],
+  "images": {
+    "background": "images/background.png",
+    "avatar": "images/avatar.jpg"
+  },
+  "fontData": "fonts/nyx-font.octetstream",
+  "fontName": "SpaceGrotesk-VariableFont_wght.ttf"
+}

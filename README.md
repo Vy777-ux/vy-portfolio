@@ -12,7 +12,7 @@ Open `index.html` in a modern browser. Select the small ✳ button at the bottom
 - **Appearance:** adjust palette, all-text color and font, glass blur and opacity, content width, and section spacing.
 - **Motion:** choose entrance and hover styles, timing, easing, and subtle parallax.
 - **Save changes:** stores the current settings in this browser. This is local to this device and browser.
-- **Download site for GitHub Pages:** select this project folder when prompted. The editor packages the page, styles, scripts, saved text, settings, and imported images/fonts into `nyxaex-portfolio.zip`.
+- **Download site for GitHub Pages:** creates `nyxaex-portfolio.zip` directly from the current editor state. No folder selection is needed. The archive includes the page, styles, scripts, saved text, settings, imported images, project thumbnails, videos links, and custom fonts.
 
 Imported images are limited to 8 MB each. If browser storage runs out, export a site package to keep your work. Use **Download settings backup** to save or **Restore settings backup** to bring back settings on another browser. A settings backup does not include the original media files; use the site ZIP for a portable copy.
 
@@ -20,13 +20,15 @@ If a project has a YouTube URL in **Project link** and no custom thumbnail, its 
 
 ## Publish for free with GitHub Pages
 
-1. Use **Download site for GitHub Pages**, then extract `nyxaex-portfolio.zip` on your computer.
+For direct publishing from the editor, complete the one-time secure Worker setup in [PUBLISHING.md](PUBLISHING.md). The GitHub credential stays in Cloudflare; the browser receives only a separate publisher password. The editor asks for confirmation every time it commits an update.
+
+1. Select **Download complete site ZIP** in the editor and extract `nyxaex-portfolio.zip` on your computer. It contains the latest saved editor state and its imported media.
 2. Sign in to GitHub and create a **public repository** for the site.
 3. Upload the extracted files and folders to the repository root. Confirm `index.html` is at the root, then commit the upload.
 4. In the repository, open **Settings → Pages**. Under **Build and deployment**, select **Deploy from a branch**, choose `main` and `/(root)`, then save.
 5. GitHub will show the published address in the Pages section when deployment finishes.
 
-To update the live version, edit your site and export again, extract the ZIP, then upload/commit the updated files to the same repository.
+To update manually, edit your site, export again, and upload the extracted files to the same repository. The ZIP is generated from the settings and media saved in this browser.
 
 ## Notes
 
