@@ -1,27 +1,39 @@
 {
   "content": {
-    "heroTitle": "The forgotten|world.",
-    "heroIntro": "A quiet place where ancient machines sleep beneath the wild. I create motion, characters and small worlds for people who still look closely.",
-    "aboutTitle": "I make things|that feel alive.",
-    "aboutText": "Hey, I’m Nyx.aex. I’m an independent artist drawn to forgotten places, gentle oddities and the way nature takes its time. Through animation and design, I build little windows into worlds that might have existed — or might still.",
-    "aboutAside": "This portfolio is a living notebook. More stories are on their way.",
+    "heroTitle": "O mundo|esquecido.",
+    "heroIntro": "Um lugar tranquilo onde máquinas antigas dormem sob a natureza. Crio animações, personagens e pequenos mundos para quem ainda olha com atenção.",
+    "aboutTitle": "Crio coisas|que parecem vivas.",
+    "aboutText": "Oi, sou Nyx.aex. Sou artista independente e me encantam lugares esquecidos, estranhezas delicadas e o ritmo da natureza. Com animação e design, abro pequenas janelas para mundos que talvez tenham existido — ou ainda existam.",
+    "aboutAside": "Este portfólio é um caderno vivo. Outras histórias estão a caminho.",
     "commissionText": "I’m available for select animation, illustration and motion design projects. If your idea feels like a good fit, tell me a little about it.",
-    "contactText": "For project inquiries, collaborations or just to share something lovely you found.",
+    "contactText": "Para conversar sobre projetos, colaborações ou compartilhar algo interessante que você encontrou.",
     "email": "hello@example.com",
     "socials": [
       {
         "label": "Youtube",
         "url": "https://www.youtube.com/@Vy_Xz"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/vy_777ux/"
+      },
+      {
+        "label": "X",
+        "url": "https://x.com/Vy_Xz03"
+      },
+      {
+        "label": "Discord",
+        "url": "https://discord.com/users/975812688779309117"
       }
     ]
   },
   "style": {
     "bg": "#343b2d",
     "accent": "#4b7548",
-    "text": "#f1e9d5",
+    "text": "#ffebb8",
     "sky": "#d9c995",
     "blur": 24,
-    "glass": 0.35,
+    "glass": 0.3,
     "width": 1340,
     "spacing": 60,
     "anim": "blur",
@@ -29,7 +41,7 @@
     "ease": "gentle",
     "hover": "glow",
     "parallax": true,
-    "font": "serif"
+    "font": "custom"
   },
   "projects": [
     {
@@ -53,6 +65,6 @@
     "background": "images/background.png",
     "avatar": "images/avatar.jpg"
   },
-  "fontData": "fonts/nyx-font.octetstream",
+  "fontData": "fonts/SpaceGrotesk-VariableFont_wght.ttf",
   "fontName": "SpaceGrotesk-VariableFont_wght.ttf"
 }
